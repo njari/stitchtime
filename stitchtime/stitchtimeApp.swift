@@ -12,7 +12,6 @@ import SwiftData
 struct stitchtimeApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Gesture.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +24,7 @@ struct stitchtimeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Start()
+            StartScreen()
         }
         .modelContainer(sharedModelContainer)
     }
