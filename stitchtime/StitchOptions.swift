@@ -10,14 +10,14 @@ struct StitchOptions: View {
             
             VStack(spacing: 20) {
                 Spacer()
-                NavigationLink(destination: StitchOptions()) {
-                    PrimaryButton(title: "single", action: {})
+                NavigationLink(destination: RecordingScreen()) {
+                    PrimaryButton(title: "single")
                     }
-                NavigationLink(destination: StitchOptions()) {
-                    PrimaryButton(title: "double", action: {})
+                NavigationLink(destination: RecordingScreen()) {
+                    PrimaryButton(title: "double")
                     }
-                NavigationLink(destination: StitchOptions()) {
-                    PrimaryButton(title: "treble", action: {})
+                NavigationLink(destination: RecordingScreen()) {
+                    PrimaryButton(title: "treble")
                     }
                 Spacer()
             }

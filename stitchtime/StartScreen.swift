@@ -2,7 +2,7 @@ import SwiftUI
 
 struct StartScreen: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 AppColors.primary
                     .ignoresSafeArea()
@@ -17,18 +17,11 @@ struct StartScreen: View {
                     Spacer()
                     
                     NavigationLink(destination: IntroScreen()) {
-                        Text("Start -> ")
-                            .font(DesignConstants.headlineFont)
-                            .foregroundColor(.white)
-                            .padding()
-                            .frame(maxWidth: .infinity)
-                            .background(AppColors.accent)
-                            .cornerRadius(10)
-                            .padding(.horizontal, 24)
+                        PrimaryButton(title: "Start ->")
                     }
+                    .padding(.horizontal, 24)
                 }
             }
-            .navigationBarHidden(true)
         }
     }
 }

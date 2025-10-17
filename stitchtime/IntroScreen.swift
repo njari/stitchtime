@@ -3,7 +3,6 @@ import SwiftUI
 struct IntroScreen: View {
     @State private var displayedText = "Hi"
     @State private var showRecordButton = false
-    @State private var navigateToStitchOptions = false
 
     var body: some View {
         NavigationStack {
@@ -18,17 +17,10 @@ struct IntroScreen: View {
                         .multilineTextAlignment(.center)
                     
                     if showRecordButton {
-                        Button(action: {
-                            navigateToStitchOptions = true
-                        }) {
-                            PrimaryButton(title: "record", action: {})
+                        NavigationLink(destination: StitchOptions()) {
+                            PrimaryButton(title: "record")
                         }
                         .padding()
-                        
-                        NavigationLink(destination: StitchOptions(), isActive: $navigateToStitchOptions) {
-                            EmptyView()
-                        }
-                        .hidden()
                     }
                 }
             }
