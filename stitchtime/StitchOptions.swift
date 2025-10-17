@@ -11,13 +11,13 @@ struct StitchOptions: View {
             VStack(spacing: 20) {
                 Spacer()
                 NavigationLink(destination: StitchOptions()) {
-                        PrimaryButton(title: "single")
+                    PrimaryButton(title: "single", action: {})
                     }
                 NavigationLink(destination: StitchOptions()) {
-                        PrimaryButton(title: "double")
+                    PrimaryButton(title: "double", action: {})
                     }
                 NavigationLink(destination: StitchOptions()) {
-                        PrimaryButton(title: "treble")
+                    PrimaryButton(title: "treble", action: {})
                     }
                 Spacer()
             }
