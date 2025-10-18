@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD00B56E2E9D194500A84E55 /* stittchtimewatchapp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BD00B54E2E9D194200A84E55 /* stittchtimewatchapp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD7571302EA2666A00366681 /* onetwostitch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BD7571102EA2666800366681 /* onetwostitch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,41 @@
 			remoteGlobalIDString = BD00B54D2E9D194200A84E55;
 			remoteInfo = "stittchtimewatchapp Watch App";
 		};
+		BD75711D2EA2666A00366681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD00B5122E9D028C00A84E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75710F2EA2666800366681;
+			remoteInfo = "onetwostitch Watch App";
+		};
+		BD7571272EA2666A00366681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD00B5122E9D028C00A84E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75710F2EA2666800366681;
+			remoteInfo = "onetwostitch Watch App";
+		};
+		BD75712E2EA2666A00366681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD00B5122E9D028C00A84E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75710F2EA2666800366681;
+			remoteInfo = "onetwostitch Watch App";
+		};
+		BD75714B2EA2670600366681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD00B5122E9D028C00A84E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75713D2EA2670400366681;
+			remoteInfo = "stitchtimewatchapp Watch App";
+		};
+		BD7571552EA2670600366681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD00B5122E9D028C00A84E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75713D2EA2670400366681;
+			remoteInfo = "stitchtimewatchapp Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +91,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
+				BD7571302EA2666A00366681 /* onetwostitch Watch App.app in Embed Watch Content */,
 				BD00B56E2E9D194500A84E55 /* stittchtimewatchapp Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
@@ -69,6 +106,12 @@
 		BD00B54E2E9D194200A84E55 /* stittchtimewatchapp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stittchtimewatchapp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD00B55A2E9D194500A84E55 /* stittchtimewatchapp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stittchtimewatchapp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD00B5642E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stittchtimewatchapp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7571102EA2666800366681 /* onetwostitch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onetwostitch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD75711C2EA2666A00366681 /* onetwostitch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onetwostitch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7571262EA2666A00366681 /* onetwostitch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onetwostitch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD75713E2EA2670400366681 /* stitchtimewatchapp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stitchtimewatchapp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD75714A2EA2670600366681 /* stitchtimewatchapp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stitchtimewatchapp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7571542EA2670600366681 /* stitchtimewatchapp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stitchtimewatchapp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -87,19 +130,19 @@
 			path = stitchtimeUITests;
 			sourceTree = "<group>";
 		};
-		BD00B54F2E9D194200A84E55 /* stittchtimewatchapp Watch App */ = {
+		BD75713F2EA2670400366681 /* stitchtimewatchapp Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "stittchtimewatchapp Watch App";
+			path = "stitchtimewatchapp Watch App";
 			sourceTree = "<group>";
 		};
-		BD00B55D2E9D194500A84E55 /* stittchtimewatchapp Watch AppTests */ = {
+		BD75714D2EA2670600366681 /* stitchtimewatchapp Watch AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "stittchtimewatchapp Watch AppTests";
+			path = "stitchtimewatchapp Watch AppTests";
 			sourceTree = "<group>";
 		};
-		BD00B5672E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests */ = {
+		BD7571572EA2670600366681 /* stitchtimewatchapp Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "stittchtimewatchapp Watch AppUITests";
+			path = "stitchtimewatchapp Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -147,6 +190,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD75710D2EA2666800366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571192EA2666A00366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571232EA2666A00366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75713B2EA2670400366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571472EA2670600366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571512EA2670600366681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -156,9 +241,9 @@
 				BD00B51C2E9D028C00A84E55 /* stitchtime */,
 				BD00B52C2E9D028E00A84E55 /* stitchtimeTests */,
 				BD00B5362E9D028E00A84E55 /* stitchtimeUITests */,
-				BD00B54F2E9D194200A84E55 /* stittchtimewatchapp Watch App */,
-				BD00B55D2E9D194500A84E55 /* stittchtimewatchapp Watch AppTests */,
-				BD00B5672E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests */,
+				BD75713F2EA2670400366681 /* stitchtimewatchapp Watch App */,
+				BD75714D2EA2670600366681 /* stitchtimewatchapp Watch AppTests */,
+				BD7571572EA2670600366681 /* stitchtimewatchapp Watch AppUITests */,
 				BD00B51B2E9D028C00A84E55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,6 +257,12 @@
 				BD00B54E2E9D194200A84E55 /* stittchtimewatchapp Watch App.app */,
 				BD00B55A2E9D194500A84E55 /* stittchtimewatchapp Watch AppTests.xctest */,
 				BD00B5642E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests.xctest */,
+				BD7571102EA2666800366681 /* onetwostitch Watch App.app */,
+				BD75711C2EA2666A00366681 /* onetwostitch Watch AppTests.xctest */,
+				BD7571262EA2666A00366681 /* onetwostitch Watch AppUITests.xctest */,
+				BD75713E2EA2670400366681 /* stitchtimewatchapp Watch App.app */,
+				BD75714A2EA2670600366681 /* stitchtimewatchapp Watch AppTests.xctest */,
+				BD7571542EA2670600366681 /* stitchtimewatchapp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +283,7 @@
 			);
 			dependencies = (
 				BD00B56D2E9D194500A84E55 /* PBXTargetDependency */,
+				BD75712F2EA2666A00366681 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				BD00B51C2E9D028C00A84E55 /* stitchtime */,
@@ -261,9 +353,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BD00B54F2E9D194200A84E55 /* stittchtimewatchapp Watch App */,
-			);
 			name = "stittchtimewatchapp Watch App";
 			packageProductDependencies = (
 			);
@@ -283,9 +372,6 @@
 			);
 			dependencies = (
 				BD00B55C2E9D194500A84E55 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BD00B55D2E9D194500A84E55 /* stittchtimewatchapp Watch AppTests */,
 			);
 			name = "stittchtimewatchapp Watch AppTests";
 			packageProductDependencies = (
@@ -307,14 +393,138 @@
 			dependencies = (
 				BD00B5662E9D194500A84E55 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BD00B5672E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests */,
-			);
 			name = "stittchtimewatchapp Watch AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "stittchtimewatchapp Watch AppUITests";
 			productReference = BD00B5642E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BD75710F2EA2666800366681 /* onetwostitch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7571312EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch App" */;
+			buildPhases = (
+				BD75710C2EA2666800366681 /* Sources */,
+				BD75710D2EA2666800366681 /* Frameworks */,
+				BD75710E2EA2666800366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "onetwostitch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "onetwostitch Watch App";
+			productReference = BD7571102EA2666800366681 /* onetwostitch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD75711B2EA2666A00366681 /* onetwostitch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7571342EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch AppTests" */;
+			buildPhases = (
+				BD7571182EA2666A00366681 /* Sources */,
+				BD7571192EA2666A00366681 /* Frameworks */,
+				BD75711A2EA2666A00366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD75711E2EA2666A00366681 /* PBXTargetDependency */,
+			);
+			name = "onetwostitch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "onetwostitch Watch AppTests";
+			productReference = BD75711C2EA2666A00366681 /* onetwostitch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD7571252EA2666A00366681 /* onetwostitch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7571372EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch AppUITests" */;
+			buildPhases = (
+				BD7571222EA2666A00366681 /* Sources */,
+				BD7571232EA2666A00366681 /* Frameworks */,
+				BD7571242EA2666A00366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7571282EA2666A00366681 /* PBXTargetDependency */,
+			);
+			name = "onetwostitch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "onetwostitch Watch AppUITests";
+			productReference = BD7571262EA2666A00366681 /* onetwostitch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BD75713D2EA2670400366681 /* stitchtimewatchapp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD75715C2EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch App" */;
+			buildPhases = (
+				BD75713A2EA2670400366681 /* Sources */,
+				BD75713B2EA2670400366681 /* Frameworks */,
+				BD75713C2EA2670400366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD75713F2EA2670400366681 /* stitchtimewatchapp Watch App */,
+			);
+			name = "stitchtimewatchapp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "stitchtimewatchapp Watch App";
+			productReference = BD75713E2EA2670400366681 /* stitchtimewatchapp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD7571492EA2670600366681 /* stitchtimewatchapp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD75715F2EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch AppTests" */;
+			buildPhases = (
+				BD7571462EA2670600366681 /* Sources */,
+				BD7571472EA2670600366681 /* Frameworks */,
+				BD7571482EA2670600366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD75714C2EA2670600366681 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD75714D2EA2670600366681 /* stitchtimewatchapp Watch AppTests */,
+			);
+			name = "stitchtimewatchapp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "stitchtimewatchapp Watch AppTests";
+			productReference = BD75714A2EA2670600366681 /* stitchtimewatchapp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD7571532EA2670600366681 /* stitchtimewatchapp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7571622EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch AppUITests" */;
+			buildPhases = (
+				BD7571502EA2670600366681 /* Sources */,
+				BD7571512EA2670600366681 /* Frameworks */,
+				BD7571522EA2670600366681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7571562EA2670600366681 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD7571572EA2670600366681 /* stitchtimewatchapp Watch AppUITests */,
+			);
+			name = "stitchtimewatchapp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "stitchtimewatchapp Watch AppUITests";
+			productReference = BD7571542EA2670600366681 /* stitchtimewatchapp Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -349,6 +559,28 @@
 						CreatedOnToolsVersion = 26.0.1;
 						TestTargetID = BD00B54D2E9D194200A84E55;
 					};
+					BD75710F2EA2666800366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					BD75711B2EA2666A00366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = BD75710F2EA2666800366681;
+					};
+					BD7571252EA2666A00366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = BD75710F2EA2666800366681;
+					};
+					BD75713D2EA2670400366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					BD7571492EA2670600366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = BD75713D2EA2670400366681;
+					};
+					BD7571532EA2670600366681 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = BD75713D2EA2670400366681;
+					};
 				};
 			};
 			buildConfigurationList = BD00B5152E9D028C00A84E55 /* Build configuration list for PBXProject "stitchtime" */;
@@ -371,6 +603,12 @@
 				BD00B54D2E9D194200A84E55 /* stittchtimewatchapp Watch App */,
 				BD00B5592E9D194500A84E55 /* stittchtimewatchapp Watch AppTests */,
 				BD00B5632E9D194500A84E55 /* stittchtimewatchapp Watch AppUITests */,
+				BD75710F2EA2666800366681 /* onetwostitch Watch App */,
+				BD75711B2EA2666A00366681 /* onetwostitch Watch AppTests */,
+				BD7571252EA2666A00366681 /* onetwostitch Watch AppUITests */,
+				BD75713D2EA2670400366681 /* stitchtimewatchapp Watch App */,
+				BD7571492EA2670600366681 /* stitchtimewatchapp Watch AppTests */,
+				BD7571532EA2670600366681 /* stitchtimewatchapp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -412,6 +650,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BD00B5622E9D194500A84E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75710E2EA2666800366681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75711A2EA2666A00366681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571242EA2666A00366681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75713C2EA2670400366681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571482EA2670600366681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571522EA2670600366681 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,6 +743,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD75710C2EA2666800366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571182EA2666A00366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571222EA2666A00366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75713A2EA2670400366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571462EA2670600366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7571502EA2670600366681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -490,6 +812,31 @@
 			isa = PBXTargetDependency;
 			target = BD00B54D2E9D194200A84E55 /* stittchtimewatchapp Watch App */;
 			targetProxy = BD00B56C2E9D194500A84E55 /* PBXContainerItemProxy */;
+		};
+		BD75711E2EA2666A00366681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75710F2EA2666800366681 /* onetwostitch Watch App */;
+			targetProxy = BD75711D2EA2666A00366681 /* PBXContainerItemProxy */;
+		};
+		BD7571282EA2666A00366681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75710F2EA2666800366681 /* onetwostitch Watch App */;
+			targetProxy = BD7571272EA2666A00366681 /* PBXContainerItemProxy */;
+		};
+		BD75712F2EA2666A00366681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75710F2EA2666800366681 /* onetwostitch Watch App */;
+			targetProxy = BD75712E2EA2666A00366681 /* PBXContainerItemProxy */;
+		};
+		BD75714C2EA2670600366681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75713D2EA2670400366681 /* stitchtimewatchapp Watch App */;
+			targetProxy = BD75714B2EA2670600366681 /* PBXContainerItemProxy */;
+		};
+		BD7571562EA2670600366681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75713D2EA2670400366681 /* stitchtimewatchapp Watch App */;
+			targetProxy = BD7571552EA2670600366681 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -919,6 +1266,318 @@
 			};
 			name = Release;
 		};
+		BD7571322EA2666A00366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = onetwostitch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nubrajarial.stitchtime;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nubrajarial.stitchtime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD7571332EA2666A00366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = onetwostitch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nubrajarial.stitchtime;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nubrajarial.stitchtime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD7571352EA2666A00366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.onetwostitch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onetwostitch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onetwostitch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD7571362EA2666A00366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.onetwostitch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onetwostitch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onetwostitch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD7571382EA2666A00366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.onetwostitch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "onetwostitch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD7571392EA2666A00366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.onetwostitch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "onetwostitch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD75715D2EA2670600366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stitchtimewatchapp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD75715E2EA2670600366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stitchtimewatchapp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD7571602EA2670600366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.stitchtimewatchapp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stitchtimewatchapp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stitchtimewatchapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD7571612EA2670600366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.stitchtimewatchapp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stitchtimewatchapp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stitchtimewatchapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD7571632EA2670600366681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.stitchtimewatchapp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stitchtimewatchapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		BD7571642EA2670600366681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36MNCNG7Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nubrajarial.stitchtimewatchapp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stitchtimewatchapp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -981,6 +1640,60 @@
 			buildConfigurations = (
 				BD00B5772E9D194500A84E55 /* Debug */,
 				BD00B5782E9D194500A84E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7571312EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7571322EA2666A00366681 /* Debug */,
+				BD7571332EA2666A00366681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7571342EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7571352EA2666A00366681 /* Debug */,
+				BD7571362EA2666A00366681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7571372EA2666A00366681 /* Build configuration list for PBXNativeTarget "onetwostitch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7571382EA2666A00366681 /* Debug */,
+				BD7571392EA2666A00366681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD75715C2EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD75715D2EA2670600366681 /* Debug */,
+				BD75715E2EA2670600366681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD75715F2EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7571602EA2670600366681 /* Debug */,
+				BD7571612EA2670600366681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7571622EA2670600366681 /* Build configuration list for PBXNativeTarget "stitchtimewatchapp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7571632EA2670600366681 /* Debug */,
+				BD7571642EA2670600366681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

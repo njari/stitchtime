@@ -6,13 +6,63 @@
 	<dict>
 		<key>stitchtime.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
-		<key>stittchtimewatchapp Watch App.xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BD00B5192E9D028C00A84E55</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD00B54D2E9D194200A84E55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD00B5592E9D194500A84E55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD00B5632E9D194500A84E55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD75710F2EA2666800366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD75711B2EA2666A00366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD7571252EA2666A00366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD75713D2EA2670400366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD7571492EA2670600366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD7571532EA2670600366681</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

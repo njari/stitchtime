@@ -1,13 +1,13 @@
 //
-//  stittchtimewatchapp_Watch_AppUITestsLaunchTests.swift
-//  stittchtimewatchapp Watch AppUITests
+//  stitchtimewatchapp_Watch_AppUITestsLaunchTests.swift
+//  stitchtimewatchapp Watch AppUITests
 //
-//  Created by Nubra Jarial on 13/10/25.
+//  Created by Nubra Jarial on 17/10/25.
 //
 
 import XCTest
 
-final class stittchtimewatchapp_Watch_AppUITestsLaunchTests: XCTestCase {
+final class stitchtimewatchapp_Watch_AppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,13 +1,13 @@
 //
-//  stittchtimewatchapp_Watch_AppUITests.swift
-//  stittchtimewatchapp Watch AppUITests
+//  stitchtimewatchapp_Watch_AppUITests.swift
+//  stitchtimewatchapp Watch AppUITests
 //
-//  Created by Nubra Jarial on 13/10/25.
+//  Created by Nubra Jarial on 17/10/25.
 //
 
 import XCTest
 
-final class stittchtimewatchapp_Watch_AppUITests: XCTestCase {
+final class stitchtimewatchapp_Watch_AppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
