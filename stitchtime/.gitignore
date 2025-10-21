@@ -1,0 +1,4 @@
+# Ignore the Xcode project directory entirely
+stitchtime.xcodeproj/
+
+# Other ignore rules can be added below as needed
