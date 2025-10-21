@@ -5,50 +5,60 @@ This file chronicles all the prompts and related feedback received during the de
 ---
 
 ## Prompt 1: IntroScreen Record Button Navigation
-- Task: Modify IntroScreen so that the record button leads to the StitchOptions screen.
-- Details: 
+- **Task:** Modify IntroScreen so that the record button leads to the StitchOptions screen.
+- **Details:** 
   - Initially, update the record button in IntroScreen to navigate to StitchOptions using NavigationLink.
   - Ensure the implementation adheres to SwiftUI practices.
-- Outcome:
+- **Outcome:**
   - The record button was updated in IntroScreen with a NavigationLink and later refined to use programmatic navigation.
 
 ---
 
 ## Prompt 2: Missing 'action' Parameter Feedback
-- Feedback: "Missing argument for parameter 'action' in call for this bit..."
-- Details:
+- **Feedback:** "Missing argument for parameter 'action' in call for this bit..."
+- **Details:**
   - Adjusted the NavigationLink and PrimaryButton usage in IntroScreen to include an empty closure for the action.
-- Outcome:
+- **Outcome:**
   - Updated the code to include action parameters as required by the PrimaryButton component.
 
 ---
 
 ## Prompt 3: Redo IntroScreen Implementation
-- Task: Redo the IntroScreen so that the record button leads to StitchOptions using a complete SwiftUI implementation.
-- Details:
+- **Task:** Redo the IntroScreen so that the record button leads to StitchOptions using a complete SwiftUI implementation.
+- **Details:**
   - Integrated NavigationStack.
   - Employed programmatic navigation by using a Button to set a state variable and a hidden NavigationLink to trigger the screen transition.
-- Outcome:
+- **Outcome:**
   - A revised version of IntroScreen with navigation state handling was implemented.
 
 ---
 
 ## Prompt 4: StartScreen Button Update
-- Task: Update StartScreen to replace a Text-based button with the PrimaryButton component.
-- Details:
+- **Task:** Update StartScreen to replace a Text-based button with the PrimaryButton component.
+- **Details:**
   - Replace the manual Text formatting with the reusable PrimaryButton component for consistency across the app.
-- Outcome:
+- **Outcome:**
   - StartScreen was modified to use PrimaryButton, ensuring that both IntroScreen and StartScreen follow the same UI conventions.
 
 ---
 
 ## Prompt 5: Consolidate All Prompts into Documentation
-- Request: "pls add all prompts upto now to the cocumentation text file"
-- Details:
+- **Request:** "pls add all prompts upto now to the cocumentation text file"
+- **Details:**
   - This document now serves as a historical log of all prompts, feedback, and modifications.
-- Outcome:
+- **Outcome:**
   - The documentation file has been updated with a detailed log of all prompts and associated instructions.
 
 ---
 
-This documentation will be maintained and updated as new prompts and tasks are introduced.
+## Prompt 6: Auto-Document New Prompts
+- **Request:** "add all prompts upto now to documentation, also by default add all new prompts to documentation"
+- **Details:**
+  - Update the documentation to include all prompts up to now.
+  - Set the policy to automatically add all new prompts to the documentation as they are received.
+- **Outcome:**
+  - This document is now maintained as a comprehensive log. Future prompts should be appended automatically to this file.
+
+---
+
+*Note: All subsequent prompts and feedback will be automatically appended to this documentation file to maintain a complete record of the session.*
