@@ -1,15 +1,8 @@
-//
-//  WatchStartScreen.swift
-//  stitchtime
-//
-//  Created by Nubra Jarial on 21/10/25.
-//
-
+import SwiftUI
 
 struct WatchStartScreen: View {
+    let motionManager = MotionManager()
     @State private var isRecording = false
-    @State private var csvFileURL: URL? = nil
-    @StateObject private var motionManager = MotionManager()
 
     var body: some View {
         NavigationStack {
@@ -17,15 +10,12 @@ struct WatchStartScreen: View {
                 Color.blue
                     .edgesIgnoringSafeArea(.all)
 
-                VStack(spacing: 20) {
+                VStack(spacing: 15) {
                     Button(isRecording ? "Stop" : "Start") {
                         if isRecording {
-                            if let fileURL = motionManager.stopUpdates() {
-                                csvFileURL = fileURL
-                            }
+                            motionManager.stopUpdates()
                         } else {
                             motionManager.startUpdates()
-                            csvFileURL = nil
                         }
                         isRecording.toggle()
                     }
@@ -34,17 +24,23 @@ struct WatchStartScreen: View {
                     .background(Color.white.opacity(0.2))
                     .cornerRadius(8)
 
-                    if let url = csvFileURL {
-                        VStack {
-                            Text("CSV saved at:")
-                                .font(.caption)
-                            Text(url.lastPathComponent)
-                                .font(.caption2)
-                        }
-                        .foregroundColor(.white)
+                    VStack(spacing: 5) {
+                        Text("Accelerometer")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        Text("x: \(motionManager.accelX, specifier: "%.2f")")
+                            .foregroundColor(.white)
+                        Text("y: \(motionManager.accelY, specifier: "%.2f")")
+                            .foregroundColor(.white)
+                        Text("z: \(motionManager.accelZ, specifier: "%.2f")")
+                            .foregroundColor(.white)
                     }
+
+                    Spacer()
                 }
+                .padding()
             }
         }
     }
 }
+
