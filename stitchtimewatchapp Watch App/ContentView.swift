@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  stitchtimewatchapp Watch App
 //
-//  Created by Nubra Jarial on 18/10/25.
+//  Created by Nubra Jarial on 27/10/25.
 //
 
 import SwiftUI

@@ -21,6 +21,7 @@ struct RecordingScreen: View {
                 // Play/Pause button at the bottom
                 Button(action: {
                     isPlaying.toggle()
+                    print("We are recording --- stitches crochet")
                 }) {
                     ZStack {
                         // Using custom color A66E50 for the button background

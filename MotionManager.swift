@@ -1,6 +1,7 @@
 import Foundation
 import CoreMotion
 import SQLite3
+import Combine
 
 class MotionManager: ObservableObject {
     private let motion = CMMotionManager()
@@ -84,7 +85,7 @@ class MotionManager: ObservableObject {
         }
         
         motion.accelerometerUpdateInterval = 0.1
-        motion.startAccelerometerUpdates(to: OperationQueue.current ?? OperationQueue.main) { [weak self] (data, error) in
+        motion.startAccelerometerUpdates(to: OperationQueue.main) { [weak self] (data, error) in
             guard let self = self, let data = data else { return }
             self.accelX = data.acceleration.x
             self.accelY = data.acceleration.y

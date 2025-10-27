@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct WatchStartScreen: View {
-    let motionManager = MotionManager()
+    @StateObject var motionManager = MotionManager()
     @State private var isRecording = false
 
     var body: some View {
@@ -13,9 +13,9 @@ struct WatchStartScreen: View {
                 VStack(spacing: 15) {
                     Button(isRecording ? "Stop" : "Start") {
                         if isRecording {
-                            motionManager.stopUpdates()
+                            motionManager.stopAccelerometerUpdates()
                         } else {
-                            motionManager.startUpdates()
+                            motionManager.startAccelerometerUpdates()
                         }
                         isRecording.toggle()
                     }
@@ -43,4 +43,3 @@ struct WatchStartScreen: View {
         }
     }
 }
-
