@@ -2,8 +2,12 @@ import Foundation
 import CoreMotion
 import SQLite3
 import Combine
+#if os(watchOS)
+import WatchConnectivity
+#endif
 
 class MotionManager: ObservableObject {
+    static var shared: MotionManager?
     private let motion = CMMotionManager()
     
     @Published var accelX: Double = 0.0
@@ -13,6 +17,7 @@ class MotionManager: ObservableObject {
     var db: OpaquePointer?
     
     init() {
+        MotionManager.shared = self
         openDatabase()
         createTable()
     }
@@ -91,14 +96,58 @@ class MotionManager: ObservableObject {
             self.accelY = data.acceleration.y
             self.accelZ = data.acceleration.z
             
-            // Insert the updated accelerometer values into the database.
-            self.insertAccelerometerData(x: self.accelX, y: self.accelY, z: self.accelZ)
+                // On watch, send accelerometer data to the phone; on phone, store data locally.
+                #if os(watchOS)
+                if WCSession.isSupported() {
+                    WCSession.default.sendMessage(["accelX": self.accelX, "accelY": self.accelY, "accelZ": self.accelZ], replyHandler: nil, errorHandler: { error in
+                        print("Error sending message: \(error)")
+                    })
+                }
+                #else
+                self.insertAccelerometerData(x: self.accelX, y: self.accelY, z: self.accelZ)
+                #endif
         }
     }
     
     // Stop accelerometer updates.
     func stopAccelerometerUpdates() {
         motion.stopAccelerometerUpdates()
+    }
+    
+    // Fetch all accelerometer data as a CSV string.
+    func fetchAllData() -> String {
+        var csv = "id,x,y,z\n"
+        let query = "SELECT id, x, y, z FROM myveryfirstdata;"
+        var statement: OpaquePointer?
+        if sqlite3_prepare_v2(db, query, -1, &statement, nil) == SQLITE_OK {
+            while sqlite3_step(statement) == SQLITE_ROW {
+                let id = sqlite3_column_int(statement, 0)
+                let x = sqlite3_column_double(statement, 1)
+                let y = sqlite3_column_double(statement, 2)
+                let z = sqlite3_column_double(statement, 3)
+                csv += "\(id),\(x),\(y),\(z)\n"
+            }
+            sqlite3_finalize(statement)
+        } else {
+            print("Error preparing fetch query.")
+        }
+        return csv
+    }
+    
+    // Delete all accelerometer data from the database.
+    func deleteAllData() {
+        let deleteQuery = "DELETE FROM myveryfirstdata;"
+        var deleteStatement: OpaquePointer?
+        if sqlite3_prepare_v2(db, deleteQuery, -1, &deleteStatement, nil) == SQLITE_OK {
+            if sqlite3_step(deleteStatement) == SQLITE_DONE {
+                print("All data deleted successfully.")
+            } else {
+                print("Could not delete data.")
+            }
+        } else {
+            print("DELETE statement could not be prepared.")
+        }
+        sqlite3_finalize(deleteStatement)
     }
     
     deinit {
