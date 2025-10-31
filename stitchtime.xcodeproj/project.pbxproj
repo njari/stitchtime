@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD7571772EA3799600366681 /* stitchtimewatchapp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BD75716D2EA3799500366681 /* stitchtimewatchapp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BD7571AA2EA7A15100366681 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7571A92EA7A15100366681 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,18 @@
 		BD00B5292E9D028E00A84E55 /* stitchtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stitchtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD00B5332E9D028E00A84E55 /* stitchtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stitchtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD75716D2EA3799500366681 /* stitchtimewatchapp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stitchtimewatchapp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD7571A92EA7A15100366681 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		BDA8050E2EB4C61D005C672A /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BDA8050B2EB4BD28005C672A /* Exceptions for "stitchtimewatchapp Watch App" folder in "stitchtimewatchapp Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MotionManager.swift,
+			);
+			target = BD75716C2EA3799500366681 /* stitchtimewatchapp Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BD00B51C2E9D028C00A84E55 /* stitchtime */ = {
@@ -75,6 +84,9 @@
 		};
 		BD75713F2EA2670400366681 /* stitchtimewatchapp Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BDA8050B2EB4BD28005C672A /* Exceptions for "stitchtimewatchapp Watch App" folder in "stitchtimewatchapp Watch App" target */,
+			);
 			path = "stitchtimewatchapp Watch App";
 			sourceTree = "<group>";
 		};
@@ -125,7 +137,7 @@
 		BD00B5112E9D028C00A84E55 = {
 			isa = PBXGroup;
 			children = (
-				BD7571A92EA7A15100366681 /* MotionManager.swift */,
+				BDA8050E2EB4C61D005C672A /* info.plist */,
 				BD00B51C2E9D028C00A84E55 /* stitchtime */,
 				BD00B52C2E9D028E00A84E55 /* stitchtimeTests */,
 				BD00B5362E9D028E00A84E55 /* stitchtimeUITests */,
@@ -347,7 +359,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7571AA2EA7A15100366681 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@ struct WatchStartScreen: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.green
+                Color.pink
                     .edgesIgnoringSafeArea(.all)
 
                 ScrollView {
@@ -18,14 +18,14 @@ struct WatchStartScreen: View {
                                 motionManager.stopAccelerometerUpdates()
                                 
                             } else {
-                               
-                                WCSession.default.activate()
+//                                MotionManager.shared.requestHealthKitPermission()
                                 motionManager.startAccelerometerUpdates()
                             }
                             isRecording.toggle()
                         }
                         .font(.headline)
                         .padding()
+
                         .background(Color.white.opacity(0.2))
                         .cornerRadius(8)
 

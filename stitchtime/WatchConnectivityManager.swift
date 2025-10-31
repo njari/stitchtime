@@ -1,13 +1,6 @@
-//
-//  watchconnectivitymanager.swift
-//  stitchtime
-//
-//  Created by Nubra Jarial on 31/10/25.
-//
-
 import Foundation
-import Combine
 import WatchConnectivity
+import Combine
 
 class WatchConnectivityManager: NSObject, WCSessionDelegate, ObservableObject {
     func sessionDidBecomeInactive(_ session: WCSession) {}
@@ -32,7 +25,6 @@ class WatchConnectivityManager: NSObject, WCSessionDelegate, ObservableObject {
         session.activate()
     }
 
-    // Called when watch sends data
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
         DispatchQueue.main.async {
             print("Received message: \(message)")
@@ -57,8 +49,7 @@ class WatchConnectivityManager: NSObject, WCSessionDelegate, ObservableObject {
 
         // Persist to UserDefaults (or a file/db later)
         let data = ["accelX": accelX, "accelY": accelY, "accelZ": accelZ]
-        UserDefaults.standard.set(data, forKey: "lastAccelData")
-        print("Stored accelerometer data: \(data)")
+        Storage.shared.post(x: accelX, y: accelY, z: accelZ)
     }
 
     // Required for WCSessionDelegate

@@ -14,7 +14,8 @@ struct stitchtimeApp: App {
         let schema = Schema([
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+        WatchConnectivityManager.shared.activateSession();
+        
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {

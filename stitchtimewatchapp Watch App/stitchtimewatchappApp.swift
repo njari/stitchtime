@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct stitchtimewatchapp_Watch_AppApp: App {
+    @StateObject private var motionManager = MotionManager()
+    
     var body: some Scene {
         WindowGroup {
             WatchStartScreen()
         }
-    }
+    };
 }

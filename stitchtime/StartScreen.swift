@@ -22,6 +22,8 @@ struct StartScreen: View {
                     .padding(.horizontal, 24)
                 }
             }
+            
+            
         }
     }
 }
