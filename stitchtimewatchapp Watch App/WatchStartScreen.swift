@@ -8,7 +8,7 @@ struct WatchStartScreen: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.blue
+                Color.green
                     .edgesIgnoringSafeArea(.all)
 
                 ScrollView {
@@ -16,7 +16,10 @@ struct WatchStartScreen: View {
                         Button(isRecording ? "Stop" : "Start") {
                             if isRecording {
                                 motionManager.stopAccelerometerUpdates()
+                                
                             } else {
+                               
+                                WCSession.default.activate()
                                 motionManager.startAccelerometerUpdates()
                             }
                             isRecording.toggle()
@@ -37,22 +40,9 @@ struct WatchStartScreen: View {
                             Text("z: \(motionManager.accelZ, specifier: "%.2f")")
                                 .foregroundColor(.white)
                         }
-                        
-                        Button("Access Data on Phone") {
-                            if WCSession.default.activationState == .activated {
-                                WCSession.default.sendMessage(["openDataAccess": true], replyHandler: nil, errorHandler: { error in
-                                    print("Error sending message: \(error)")
-                                })
-                            } else {
-                                print("WCSession not activated")
+                            
                             }
-                        }
-                        .font(.caption)
-                        .padding(5)
-                        .background(Color.green)
-                        .cornerRadius(8)
-                    }
-                    .padding()
+
                 }
             }
         }

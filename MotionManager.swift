@@ -96,16 +96,13 @@ class MotionManager: ObservableObject {
             self.accelY = data.acceleration.y
             self.accelZ = data.acceleration.z
             
-                // On watch, send accelerometer data to the phone; on phone, store data locally.
-                #if os(watchOS)
-                if WCSession.isSupported() {
+                // On watch, call activate then send accelerometer data to the phone; on phone, store data locally.
+                if WCSession.default.activationState == .activated {
                     WCSession.default.sendMessage(["accelX": self.accelX, "accelY": self.accelY, "accelZ": self.accelZ], replyHandler: nil, errorHandler: { error in
                         print("Error sending message: \(error)")
                     })
                 }
-                #else
                 self.insertAccelerometerData(x: self.accelX, y: self.accelY, z: self.accelZ)
-                #endif
         }
     }
     
