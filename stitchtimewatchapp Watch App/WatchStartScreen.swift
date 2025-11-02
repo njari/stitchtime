@@ -3,6 +3,7 @@ import WatchConnectivity
 
 struct WatchStartScreen: View {
     @StateObject var motionManager = MotionManager()
+    
     @State private var isRecording = false
 
     var body: some View {
@@ -15,11 +16,12 @@ struct WatchStartScreen: View {
                     VStack(spacing: 15) {
                         Button(isRecording ? "Stop" : "Start") {
                             if isRecording {
-                                motionManager.stopAccelerometerUpdates()
+                                WorkoutSessionManager.shared.stopSession()
                                 
                             } else {
-//                                MotionManager.shared.requestHealthKitPermission()
-                                motionManager.startAccelerometerUpdates()
+                                WorkoutSessionManager.shared.requestAuthorization()
+                                WorkoutSessionManager.shared.startSession()
+//                                motionManager.startAccelerometerUpdates()
                             }
                             isRecording.toggle()
                         }
